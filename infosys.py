@@ -8,7 +8,7 @@ import os
 from difflib import get_close_matches
 import streamlit as st
 import kagglehub
-path = kagglehub.dataset_download("niksaurabh/doctors-speciality")
+path = kagglehub.dataset_download("download/doctors-speciality")
 
 print("Path to dataset files:", path)
 
